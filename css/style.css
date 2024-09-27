@@ -1,0 +1,99 @@
+:root {
+    --color-dark: #011128;
+    --color-medium: #aae8ff;
+    --color-light: #ffffff;
+    --color-dark-transparent: #02000b8f;
+}
+
+/* Demerval */
+body {
+    background-color: var(--color-dark);
+}
+
+.navbar {
+    background-color: var(--color-dark);
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    color: var(--color-light);
+    transition: color .2s;
+
+}
+
+.navbar-brand:hover {
+    color: var(--color-medium);
+}
+
+.navbar-toggler {
+    box-shadow: none !important;
+    border: 1px solid var(--color-light);
+}
+
+.bi-filter-right {
+    font-size: 2rem;
+    color: var(--color-light);
+}
+
+.nav-link {
+    color: var(--color-light);
+    font-size: 1.1rem;
+}
+
+.nav-link:hover {
+    color: var(--color-medium);
+}
+
+.hero {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    align-items: center;
+
+
+}
+
+.hero-text {
+    color: var(--color-light);
+}
+
+.hero h1 {
+    font-size: 4rem;
+}
+
+.hero p {
+    font-size: 1.5rem;
+}
+
+.hero img {
+    border-radius: 10px;
+    width: 100%;
+}
+
+.intro h2, h3, .text-intro, .link-site,
+.link, .investidores, p, h1, h2, h3{
+    color: var(--color-light);
+}
+.card-text{
+    color: var(--color-dark);
+}
+
+.link{
+    text-decoration: none;
+}
+.link:hover{
+    color: var(--color-medium);
+}
+
+.investidores{
+    min-height: 100vh;
+}
+@media (max-width :1024px){
+    .hero{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1rem;
+    }
+}
+
+/* Index */

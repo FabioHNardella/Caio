@@ -1,0 +1,35 @@
+:root{
+    --color-dark: #02000B;
+    --color-light: #FFFFFF;
+    --color-medium: #404558;
+    --color-dark-transparent: #02000b8f;
+}
+
+p, a, h1, h2, h3{
+ color: var(--color-light);
+}
+
+.container-content{
+    min-height: 100vh;
+}
+.img-robo{
+    width: 70%;
+}
+.container-intro{
+    background-image: url(../img/Designer\ \(1\).jpeg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+body{
+    background-color: var(--color-dark);
+}
+
+.fw-bold, .nome, .card-text{
+    color: var(--color-dark);
+}
+.text-hero{
+    background-color: var(--color-dark-transparent);
+}
